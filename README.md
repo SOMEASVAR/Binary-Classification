@@ -8,30 +8,22 @@ To write a python program to perform binary classification.
 
 ## Related Theoritical Concept:
 ```
-1.numpy-used to manipulate arrays and mathematical operations on arrays. 
-2.matplotlib.pyplot as plt-used to represent the given data set in a 
-graphical manner. 
-3.sklearn-used for statistical modelling and build machine learning models. 
-4.datasets-used to introduce many small datasets and fetch large data sets. 
-5.make_blobs-used to generate blobs of points with a gaussian distribution. 
-6.counter-It is a sub class of dictionary class used to count the key-value pair in 
-the given data set. 
+Binary classification is a form of classification — the process of predicting categorical variables — where the output is restricted to two classes. It is used in many different data science applications, such as Medical Diagnosis, Email analysis, Marketing, etc. For example, in medical diagnosis, a binary classifier for a specific disease could take in symptoms of a patient and predict whether the patient is healthy or has a disease. The possible outcomes of the diagnosis are positive and negative.
 
 ```
 
 ## Algorithm
 ## Step 1: 
-Import necessary libraries from packages. 
+Define dataset.
 ## Step 2: 
-Assign x,y values from the given dataset by sklearn. 
+Summarize dataset shape.
 ## Step 3: 
-Count the number of key-value pairs in the datasets using counter libraries. 
+Summarize observations by class label. 
 ## Step 4: 
-Plot the x and y values in the chart using mathplotlib.pyplot 
+Summarize first few examples. 
 ## Step 5: 
-Label the values of x and y axis and add title to the graph . 
-## Step 6: 
-Save the file and execute the program.
+Plot the dataset and color the by class label
+
 
 ## Program:
 ```
